@@ -4,21 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./public/app.css">
     <title>Document</title>
-   <link rel="stylesheet" href="./public/app.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
     <nav>
+        <ul class="navbar-ul">
+            <li><a href="./todo-listes/todo1.html">Todo1</a></li>
+            <li><a href="./todo-listes/todo1.html">Todo2</a></li>
+            <li><a href="./todo-listes/todo1.html">Todo3</a></li>
+        </ul>
+    </nav>
+
+    <h1>to do list:</h1>
+    <form action="">
+        <input type="text" class="input" required>
+        <button type="submit" class="btn_list">
+            Add
+        </button>
+    </form>
+    <div class="container">
         <ul>
-          <li><a href="./todo-listes/todo1.html">todo1</a></li>
-          <li><a href="./todo-listes/todo2.html">todo2</a></li>
-          <li><a href="./todo-listes/todo3.html">todo3</a></li>
-
-          
-        </ul>
-      </nav>
-    
-
+         
+        </ul>
+        
+    </div>
+    <select id="Select">
+        <option value="tous">Tous les elements</option>
+        <option value="compler">Validé</option>
+        <option value="no compler"> non validé</option>
+    </select>
     <script src="./public/app.js"></script>
 </body>
 </html>
