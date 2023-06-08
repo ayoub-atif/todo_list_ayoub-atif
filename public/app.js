@@ -54,28 +54,4 @@ document.addEventListener("click", param =>{
         param.target.parentElement.previousElementSibling.textContent = entrer;
     }
 })
-let select = document.querySelector("select");
-let selectVl = select.value;
-
-let elements = [];
-let selectelemnts = [];
-if (selectVl === 'compler') {
-    for (let index = 0; index < elements.length; index++) {
-        let element = elements[index];
-        if (element.completed ==true) {
-          selectelemnts.push(element);
-        }
-      }
-      
-} else if (selectVl === 'no compler') {
-    for (let index = 0; index < elements.length; index++) {
-        let element = elements[index];
-
-        if (element.completed == false) {
-          selectelemnts.push(element);
-        }
-      }
-} else {
-    selectelemnts = elements;
-}
 
