@@ -55,5 +55,10 @@ document.addEventListener("click", param =>{
         param.target.parentElement.previousElementSibling.textContent = entrer;
     }
 })
+
+
+
+
 // ******************************
+
 
