@@ -76,6 +76,7 @@ form button{
     color: white;
     outline: none;
     cursor: pointer;
+    border-radius: 10%;
 }
 .container{
     margin-top: 50px;
