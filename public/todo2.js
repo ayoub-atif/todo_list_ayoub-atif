@@ -11,6 +11,7 @@ btn.onclick = function(){
         <p class="item" draggable="true">${inp.value}<p/>
         
         `
+        
         inp.value='';
 
     }
